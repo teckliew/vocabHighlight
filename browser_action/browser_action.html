@@ -1,0 +1,59 @@
+<!doctype html>
+<link rel="stylesheet" href="browser_action.css">
+<script src="browser_action.js" charset="utf-8"></script>
+<script src="../../js/jquery/jquery.min.js" charset="utf-8"></script>
+<div id="mainPopup">
+	<h1>Wordiem</h1>
+	<div class="switch-container">
+		<div class="switch-title">Wordiem is: </div>
+		<div class="switch">
+	    <input type="radio" class="switch-input" name="view" value="toggleExt-on" id="toggleExt-on">
+	    <label for="toggleExt-on" class="switch-label switch-label-off">ON</label>
+	    <input type="radio" class="switch-input" name="view" value="toggleExt-off" id="toggleExt-off">
+	    <label for="toggleExt-off" class="switch-label switch-label-on">OFF</label>
+	    <span class="switch-selection"></span>
+	  </div>
+	</div>
+	<p>Words are highlighted from the vocabulary list.</p>
+	<p>Click for definition and options to remove selected word from the vocabulary list.</p>
+	<p>Add new words by double clicking any word</p>
+	<div id=options>
+	<ul>
+		<li>
+			<h4>Select Vocab library</h4>
+			<ul id='category-select'>
+			 <li id='bio' class='category select-option'>Biology</li>
+			 <li class='category select-option'>Chemistry</li>
+			 <li class='category select-option'>Law</li>
+		 </ul>
+	 </li>
+	 <li>
+		<h4>Highlight color</h4>
+			<ul id="color-select">
+			 <li class='color select-option'>Sunny</li>
+			 <li class='color select-option'>Bloody</li>
+			 <li class='color select-option'>Watery</li>
+			 <li class='color select-option'>Foresty</li>
+		 </ul>
+	 </li>
+	</ul>
+</div>
+	<!-- <div class="wrapper-dropdown">
+		<span>Select a vocab library</span>
+		<ul class="dropdown">
+			<li>Biology</li>
+			<li>Chemistry</li>
+			<li>Law</li>
+		</ul>
+	</div> -->
+	<!-- <div class="wrapper-dropdown">
+		<span>Highlight color</span>
+		<ul class="dropdown">
+			<li>Sunny</li>
+			<li>Bloody</li>
+			<li>Watery</li>
+			<li>Foresty</li>
+		</ul>
+	</div> -->
+	<div class="user">Sign In | Sign Up</div>
+</div>
